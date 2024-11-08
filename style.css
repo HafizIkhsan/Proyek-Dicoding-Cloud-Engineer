@@ -130,7 +130,7 @@ footer h3 {
 .fa {
   color: initial;
   font-size: 32px !important;
-  width: 40px;
+  display: inline;
   text-decoration: none;
   padding: 12px;
 }
