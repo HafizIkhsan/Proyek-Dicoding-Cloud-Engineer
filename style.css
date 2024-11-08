@@ -41,6 +41,12 @@ aside img {
   margin: 4px 0px 0px 0px;
   font-size: 12px;
   line-height: 160%;
+  text-align: center;
+}
+
+#left-side h1 {
+  font-size: 24px;
+  margin-top: 12px;
 }
 
 /* content */
@@ -59,9 +65,30 @@ aside img {
   margin-left: 64px;
 }
 
+/* info */
+#main-content aside {
+  padding: 12px;
+  border: 2px solid black;
+  height: 100%;
+}
+
+aside h3 {
+  margin: 0px;
+}
+
+.info ul {
+  width: 16vw;
+  padding: 0px;
+}
+
+.info ul li {
+  list-style: none;
+}
+
 /* Foto Gallery */
 .gallery {
-  background-color: rgb(83, 147, 235);
+  background-color: rgb(83, 147, 235, 0.52);
+  border-radius: 16px;
 }
 
 .gallery ul {
@@ -70,11 +97,53 @@ aside img {
   padding: 16px;
 }
 
-li {
+.gallery li {
   list-style: none;
 }
 
 li img {
   width: 120px;
+  height: 120px;
   border-radius: 50%;
+}
+
+/* Footer */
+footer {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+footer h3,
+footer .social-media {
+  text-align: center;
+}
+
+.social-media {
+  padding: 16px;
+}
+
+footer h3 {
+  margin: 24px 0px 0px 0px;
+}
+
+.fa {
+  color: initial;
+  font-size: 32px !important;
+  width: 40px;
+  text-decoration: none;
+  padding: 12px;
+}
+
+.fa-linkedin {
+  color: #0077b5;
+}
+
+.fa-instagram {
+  color: #e1306c;
+}
+
+footer {
+  color: white;
+  background-color: rgb(30, 30, 30);
 }
