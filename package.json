@@ -1,0 +1,14 @@
+{
+  "name": "kuis-proyek-pertama",
+  "version": "1.0.0",
+  "description": "Proyek Hafiz Profile Web",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Hafiz",
+  "license": "ISC",
+  "prettier": {
+    "singleQuote": true
+  }
+}
